@@ -1,0 +1,172 @@
+html, body{
+    margin:0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 89px;
+    position: absolute;
+    top: 0px;
+    margin-left: 5%;
+    
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+
+a{
+ text-decoration: none;
+ color: white;   
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+
+}   
+li:hover{
+    background-color: #0fbefd;
+}
+#imagem_fundo {
+    background:url("imagem/campo.jpg");
+    height:50%;
+    text-align: center;
+    padding: 80px;
+    
+    
+}
+
+#titulo{
+    color: black;
+    padding-top: 20%;
+    font-size: 50px;
+}
+
+
+#subtitulo{
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+   background-size: cover;
+}
+
+
+#titulo{
+    font-size: 100;
+    color:white;
+}
+
+#subtitulo{
+    font-size: 40px;
+    color:white;
+}
+
+#acao{
+    color:white;
+    border: 1px rgb(233, 233, 233) solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+
+.destaque{
+    background-color:#f7f7f7;
+    padding: 20px;
+}
+
+
+
+#classificacao {
+    padding: 20px;
+    background-color: #f3f0f088;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.esquerda{
+    text-align: left;
+    margin-right: 70%;
+    text-decoration: none;
+    background-color: aquamarine;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+p{
+    line-height: 25px;
+}
+div > h4{
+
+    background-color: yellow;
+}
+
+
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+#tres{
+    width: 25%;
+    padding: 0;
+    text-align: center;
+}
+.carrinho{
+    float:left;
+    width: 100%;
+    padding: 0 80%;
+    position: relative;
+}
+
+.objetivos{
+    width: 80%;
+    
+}
+
+.tema{
+width: 50%;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #01AAEA;
+    float: right;
+}
+#rodape{
+    width: 100%;
+    float: left;
+}
